@@ -1,12 +1,19 @@
-
+import reactImg from './assets/react-core-concepts.png'
 import './App.css';
+
+const reactDescription = ['Fundamental','Crucial', 'Core'];
+
+function genRandomInt(max) {
+  return Math.floor(Math.random() * (max + 1));
+}
 function Header() {
+  const description = reactDescription[genRandomInt(2)]
   return(
     <header>
-        <img src="assets/react-core-concepts.png" alt="Stylized atom" />
+        <img src={reactImg} alt="Stylized atom" />
         <h1>React Essentials</h1>
         <p>
-          Fundamental React concept you will need for almost any app you are going to build!
+          {description} React concept you will need for almost any app you are going to build!
         </p>
       </header>
   );
