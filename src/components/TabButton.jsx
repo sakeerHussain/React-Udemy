@@ -10,4 +10,3 @@ export default function TabButton({ children, isSelected, ...props }) {
 }
 
 
-// This is a dummy text helll oo kjhedhjkghkj

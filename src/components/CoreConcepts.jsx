@@ -1,4 +1,3 @@
-import React from "react";
 import CoreConcept from "./CoreConcept.jsx";
 import { CORE_CONCEPTS } from "../data.js";
 
